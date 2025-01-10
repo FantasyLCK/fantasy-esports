@@ -7,7 +7,7 @@ let db
 const url = 'mongodb+srv://admin:admin00@cluster0.dmb9t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 new MongoClient(url).connect().then((client) => {
   console.log('Successfully connected to MongoDB')
-  db = client.db('db')
+  db = client.db('database')
   app.listen(3000, () => {
     console.log('Server running on http://localhost:3000')
 })
