@@ -20,8 +20,3 @@ app.use(express.static(__dirname + '/public'))
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
-
-app.get('/players', (req, res) => {
-    db.collection('players').insertOne({
-    })
-})
