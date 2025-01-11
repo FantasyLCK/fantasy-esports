@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인 - Fantasy LCK</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="/main.css" rel="stylesheet">
+    <title>로그인 - Fantasy Esports</title>
+    <link href="./public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./public/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="background d-flex align-items-center">
+        <div class="container-sm ps-4 pe-4 shadow login">
+            <form>
+                <div class="pt-4 mb-4">
+                    <h1 class="eng-font title">Fantasy Esports</h1>
+                    <label>Fantasy Esports에 방문하신 것을 환영합니다!</label>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label float-start">비밀번호</label>
+                    <a href="#"><p class="float-end">비밀번호를 잊으셨나요?</p></a>
+                    <input type="password" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <button type="button" class="btn btn-primary mb-3 rounded-3" style="width: 100%;">로그인</button>
+            </form>
+            <footer class="pb-3">
+                <div class="float-start">
+                    <a href="#">
+                        <p>회원가입</p>
+                    </a>
+                </div>
+                <div class="form-check form-switch float-end">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">로그인 저장</label>
+                </div>
+                <div style="clear: both;"></div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

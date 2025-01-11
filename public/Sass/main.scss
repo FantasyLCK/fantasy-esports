@@ -1,0 +1,50 @@
+$primary: #6610f2;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=League+Gothic:wdth@75..100&display=swap');
+
+body {
+    background: $gray-900;
+    font-family: "IBM Plex Sans KR", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+} 
+
+.eng-font {
+    font-family: "League Gothic", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 90;
+}
+
+.background {
+    height: 100vh;
+}
+
+.title {
+    font-size: 64px;
+    color: $indigo-200;
+}
+
+// 로그인, 회원가입 페이지 css
+
+.login {
+    width: 480px; 
+    background: $dark;
+    border-radius: 18px;
+}
+
+.login form .form-control {
+    background: transparent;
+    color: white;
+}
+
+.login a {
+    color: $indigo-200;
+}
