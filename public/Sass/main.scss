@@ -1,3 +1,12 @@
+// 커스텀 테마 선언
+$primary: #5f22b5;
+$secondary: #D48DF2;
+$info: #60C8F0;
+$success: #24B06F;
+$warning: #F0C647;
+$danger: #F35766;
+
+// bootstrap 임포트
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=swap');
@@ -56,4 +65,5 @@ body {
 
 .login button {
     width: 100%;
+    color: whitesmoke;
 }
