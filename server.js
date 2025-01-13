@@ -20,13 +20,13 @@ new MongoClient(url).connect().then((client) => {
   console.log('Successfully connected to MongoDB') // DB 통신
   db = client.db('database')
   app.listen(3000, () => {
-    console.log('Express is running on http://localhost:3000')
-}) // 서버 통신
+    console.log('Express is running on http://localhost:3000') // 서버 통신
+})
 }).catch((err) => {
   console.log(err)
 })
 
 // 메인 페이지 불러오기
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/main/index.html')
+    res.render('index.ejs')
 })
