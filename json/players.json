@@ -1,6 +1,6 @@
 [
     {
-        "_id": {},
+        "_id": 0,
         "name": "Doran",
         "position": "TOP",
         "team": "T1",
@@ -11,7 +11,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 1,
         "name": "Kiin",
         "position": "TOP",
         "team": "GEN",
@@ -22,7 +22,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 2,
         "name": "Zeus",
         "position": "TOP",
         "team": "HLE",
@@ -33,7 +33,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 3,
         "name": "Siwoo",
         "position": "TOP",
         "team": "DK",
@@ -44,7 +44,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 4,
         "name": "PerfecT",
         "position": "TOP",
         "team": "KT",
@@ -55,7 +55,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 5,
         "name": "DuDu",
         "position": "TOP",
         "team": "DNF",
@@ -66,7 +66,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 6,
         "name": "Clear",
         "position": "TOP",
         "team": "BFX",
@@ -77,7 +77,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 7,
         "name": "Kingen",
         "position": "TOP",
         "team": "NS",
@@ -88,7 +88,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 8,
         "name": "Rich",
         "position": "TOP",
         "team": "DRX",
@@ -99,7 +99,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 9,
         "name": "Morgan",
         "position": "TOP",
         "team": "BRO",
@@ -110,7 +110,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 10,
         "name": "Oner",
         "position": "JGL",
         "team": "T1",
@@ -121,7 +121,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 11,
         "name": "Canyon",
         "position": "JGL",
         "team": "GEN",
@@ -132,7 +132,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 12,
         "name": "Peanut",
         "position": "JGL",
         "team": "HLE",
@@ -143,7 +143,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 13,
         "name": "Lucid",
         "position": "JGL",
         "team": "DK",
@@ -154,7 +154,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 14,
         "name": "Cuzz",
         "position": "JGL",
         "team": "KT",
@@ -165,7 +165,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 15,
         "name": "Pyosik",
         "position": "JGL",
         "team": "DNF",
@@ -176,7 +176,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 16,
         "name": "Rapter",
         "position": "JGL",
         "team": "BFX",
@@ -187,7 +187,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 17,
         "name": "Sylvie",
         "position": "JGL",
         "team": "NS",
@@ -198,7 +198,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 18,
         "name": "Sponge",
         "position": "JGL",
         "team": "DRX",
@@ -209,7 +209,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 19,
         "name": "HamBak",
         "position": "JGL",
         "team": "BRO",
@@ -220,7 +220,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 20,
         "name": "Faker",
         "position": "MID",
         "team": "T1",
@@ -231,7 +231,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 21,
         "name": "Chovy",
         "position": "MID",
         "team": "GEN",
@@ -242,7 +242,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 22,
         "name": "Zeka",
         "position": "MID",
         "team": "HLE",
@@ -253,7 +253,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 23,
         "name": "ShowMaker",
         "position": "MID",
         "team": "DK",
@@ -264,7 +264,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 24,
         "name": "Bdd",
         "position": "MID",
         "team": "KT",
@@ -275,7 +275,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 25,
         "name": "BuLLDoG",
         "position": "MID",
         "team": "DNF",
@@ -286,7 +286,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 26,
         "name": "VicLa",
         "position": "MID",
         "team": "BFX",
@@ -297,7 +297,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 27,
         "name": "Fisher",
         "position": "MID",
         "team": "NS",
@@ -308,7 +308,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 28,
         "name": "Ucal",
         "position": "MID",
         "team": "DRX",
@@ -319,7 +319,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 29,
         "name": "Clozer",
         "position": "MID",
         "team": "BRO",
@@ -330,7 +330,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 30,
         "name": "Gumayusi",
         "position": "BOT",
         "team": "T1",
@@ -341,7 +341,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 31,
         "name": "Ruler",
         "position": "BOT",
         "team": "GEN",
@@ -352,7 +352,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 32,
         "name": "Viper",
         "position": "BOT",
         "team": "HLE",
@@ -363,7 +363,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 33,
         "name": "Aiming",
         "position": "BOT",
         "team": "DK",
@@ -374,7 +374,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 34,
         "name": "deokdam",
         "position": "BOT",
         "team": "KT",
@@ -385,7 +385,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 35,
         "name": "Berserker",
         "position": "BOT",
         "team": "DNF",
@@ -396,7 +396,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 36,
         "name": "Diable",
         "position": "BOT",
         "team": "BFX",
@@ -407,7 +407,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 37,
         "name": "Jiwoo",
         "position": "BOT",
         "team": "NS",
@@ -418,7 +418,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 38,
         "name": "Teddy",
         "position": "BOT",
         "team": "DRX",
@@ -429,7 +429,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 39,
         "name": "Hype",
         "position": "BOT",
         "team": "BRO",
@@ -440,7 +440,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 40,
         "name": "Keria",
         "position": "SPT",
         "team": "T1",
@@ -451,7 +451,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 41,
         "name": "Duro",
         "position": "SPT",
         "team": "GEN",
@@ -462,7 +462,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 42,
         "name": "Delight",
         "position": "SPT",
         "team": "HLE",
@@ -473,7 +473,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 43,
         "name": "BeryL",
         "position": "SPT",
         "team": "DK",
@@ -484,7 +484,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 44,
         "name": "Way",
         "position": "SPT",
         "team": "KT",
@@ -495,7 +495,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 45,
         "name": "Life",
         "position": "SPT",
         "team": "DNF",
@@ -506,7 +506,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 46,
         "name": "Kellin",
         "position": "SPT",
         "team": "BFX",
@@ -517,7 +517,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 47,
         "name": "Lehends",
         "position": "SPT",
         "team": "NS",
@@ -528,7 +528,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 48,
         "name": "Andil",
         "position": "SPT",
         "team": "DRX",
@@ -539,7 +539,7 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 49,
         "name": "Pollu",
         "position": "SPT",
         "team": "BRO",
@@ -550,12 +550,23 @@
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 50,
         "name": "Bull",
         "position": "BOT",
         "team": "BRO",
         "tier": "D",
         "value": 10,
+        "pog_count": 0,
+        "team_chemistry": true,
+        "updated_at": "2025-01-01T00:00:00.000Z"
+    },
+    {
+        "_id": 51,
+        "name": "GIDEON",
+        "position": "JGL",
+        "team": "NS",
+        "tier": "C",
+        "value": 20,
         "pog_count": 0,
         "team_chemistry": true,
         "updated_at": "2025-01-01T00:00:00.000Z"

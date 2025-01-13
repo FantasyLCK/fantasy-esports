@@ -16,6 +16,7 @@ new MongoClient(url).connect().then((client) => {
   console.log(err)
 })
 
+app.set('view engine', 'ejs')
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', (req, res) => {

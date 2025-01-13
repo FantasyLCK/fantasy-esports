@@ -1,60 +1,60 @@
 [
     {
-        "_id": {},
+        "_id": 0,
         "team_name": "T1",
         "rank": 1,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 1,
         "team_name": "GEN",
         "rank": 2,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 2,
         "team_name": "HLE",
         "rank": 3,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 3,
         "team_name": "DK",
         "rank": 4,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 4,
         "team_name": "KT",
         "rank": 5,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 5,
         "team_name": "DNF",
         "rank": 6,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 6,
         "team_name": "BFX",
         "rank": 7,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 7,
         "team_name": "NS",
         "rank": 8,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 8,
         "team_name": "DRX",
         "rank": 9,
         "updated_at": "2025-01-01T00:00:00.000Z"
     },
     {
-        "_id": {},
+        "_id": 9,
         "team_name": "BRO",
         "rank": 10,
         "updated_at": "2025-01-01T00:00:00.000Z"
