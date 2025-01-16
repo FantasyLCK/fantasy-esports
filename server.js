@@ -34,15 +34,17 @@ app.get('/', (req, res) => {
 app.get('/list/:position', async (req, res) => {
   try {
     const position = req.params.position; // position 값 가져오기
-    let query = {};
 
-    // position 값이 존재하면 쿼리 조건 추가
-    if (position) {
-      query = { position: position.toUpperCase() }; // 대소문자 무시
+    // position 값이 없으면 position_list.ejs를 렌더링
+    if (!position) {
+      return res.render('position_list.ejs');
     }
 
-    const result = await db.collection('players').find(query).toArray(); // 쿼리 실행
-    res.render('list.ejs', { result: result }); // 결과를 렌더링
+    // position 값이 존재하면 해당 데이터를 필터링
+    const query = { position: position.toUpperCase() }; // 대소문자 구분 방지
+    const result = await db.collection('players').find(query).toArray();
+
+    res.render('list.ejs', { result: result }); // list.ejs 렌더링
   } catch (err) {
     console.error(err);
     res.status(500).send('Internal Server Error'); // 에러 처리
