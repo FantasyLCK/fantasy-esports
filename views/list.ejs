@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인 - Fantasy Esports</title>
+    <title>선수 목록 - Fantasy Esports</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
@@ -15,21 +15,18 @@
             <img src="/img/logo-icon.svg" alt="" class="logo-icon me-2 mb-2">
             <h1 class="eng-font">Fantasy Esports</h1>
         </header>
-        <div class="login rounded-3 m-3 d-flex flex-column align-items-center justify-content-center shadow-lg">
-            <h1 class="mt-4 mb-4">로그인</h1>
-            <div class="w-75">
-                <button type="submit" class="btn btn-light mb-3">
-                    <i class="bi bi-google me-1"></i>
-                    <span>Google 계정으로 로그인</span>
-                </button>
-                <button type="submit" class="btn btn-discord mb-3">
-                    <i class="bi bi-discord me-1"></i>
-                    <span>Discord 계정으로 로그인</span>
-                </button>
-            </div>
+        <div class="container-sm mt-4 mb-4 bg-light rounded">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <% for(var i=0; i<result.length; i++) { %>
+                        <a class="nav-link" href="/detail/<%=result[i].name%>">
+                            <%= result[i].name %>
+                        </a>
+                    <% } %>
+                </li>
+            </ul>
         </div>
-        
-
+    </div>
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

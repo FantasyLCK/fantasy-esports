@@ -1,4 +1,6 @@
 // 커스텀 테마 선언
+$background: #292841;
+$discord: #5662F6;
 $primary: #481F81;
 $secondary: #FF86BB;
 $info: #60C8F0;
@@ -9,17 +11,19 @@ $danger: #F35766;
 // bootstrap 임포트
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+// 폰트 임포트
+
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=League+Gothic:wdth@75..100&display=swap');
 
 body {
-    background: $indigo-900;
+    background: $dark;
     font-family: "IBM Plex Sans KR", serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-    overflow: hidden;
+    // overflow: hidden;
 } 
 
 .eng-font {
@@ -32,7 +36,6 @@ body {
 }
 
 .background {
-    background-image: url(../img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -42,28 +45,27 @@ body {
     font-size: 64px;
 }
 
-// 로그인, 회원가입 페이지 css
+header {
+    height: 60px;
+    background-color: $background;
+}
+
+.logo-icon {
+    height: 32px;
+}
+
+// 로그인, 회원가입 css
 
 .login {
-    max-width: 500px; 
-    background: $dark;
-    border-radius: 18px;
+    background-color: #0000005f;
+    width: 320px;
+    height: calc(100% - 92px);
 }
 
-.login form .form-control {
-    background: transparent;
-    color: white;
-}
-
-.login .title {
-    color: $secondary;
-}
-
-.login img {
-    width: 50px;
+.login h1 {
+    font-weight: 600;
 }
 
 .login button {
     width: 100%;
-    color: whitesmoke;
 }

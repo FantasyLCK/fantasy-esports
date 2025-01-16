@@ -11968,12 +11968,11 @@ textarea.form-control-lg {
   }
 }
 body {
-  background: #140330;
+  background: #212529;
   font-family: "IBM Plex Sans KR", serif;
   font-weight: 400;
   font-style: normal;
   color: white;
-  overflow: hidden;
 }
 
 .eng-font {
@@ -11985,7 +11984,6 @@ body {
 }
 
 .background {
-  background-image: url(../img/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -11995,26 +11993,25 @@ body {
   font-size: 64px;
 }
 
+header {
+  height: 60px;
+  background-color: #292841;
+}
+
+.logo-icon {
+  height: 32px;
+}
+
 .login {
-  max-width: 500px;
-  background: #212529;
-  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.3725490196);
+  width: 320px;
+  height: calc(100% - 92px);
 }
 
-.login form .form-control {
-  background: transparent;
-  color: white;
-}
-
-.login .title {
-  color: #FF86BB;
-}
-
-.login img {
-  width: 50px;
+.login h1, .login .h1 {
+  font-weight: 600;
 }
 
 .login button {
   width: 100%;
-  color: whitesmoke;
 }/*# sourceMappingURL=main.css.map */
