@@ -15,34 +15,16 @@
             <img src="/img/logo-icon.svg" alt="" class="logo-icon me-2 mb-2">
             <h1 class="eng-font">Fantasy Esports</h1>
         </header>
-        <div class="container-sm mt-4 mb-4 bg-light rounded">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/list/TOP">TOP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/list/JGL">JGL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/list/MID">MID</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/list/BOT">BOT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/list/SPT">SPT</a>
-                </li>
-            </ul>
-        </div>
-        <div class="container-sm mt-4 mb-4 bg-light rounded">
+        <%- include('position_nav.ejs') %>
+        <div class="list m-2 eng-font bg-light rounded">
             <ul class="nav flex-column">
-                <li class="nav-item">
-                    <% for(var i=0; i<result.length; i++) { %>
-                        <a class="nav-link" href="/detail/<%=result[i].name%>">
+                <% for(var i=0; i<result.length; i++) { %>
+                    <li class="nav-item players">
+                        <a class="nav-link" href="/list/<%=result[i].position%>/<%=result[i].name%>">
                             <%= result[i].name %>
                         </a>
-                    <% } %>
-                </li>
+                    </li>
+                <% } %>
             </ul>
         </div>
     </div>

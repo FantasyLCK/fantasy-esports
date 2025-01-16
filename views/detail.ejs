@@ -15,14 +15,40 @@
             <img src="/img/logo-icon.svg" alt="" class="logo-icon me-2 mb-2">
             <h1 class="eng-font">Fantasy Esports</h1>
         </header>
-        <div class="m-3 p-3 bg-primary">
-            <h1 class="mb-1"><%=result.name%></h1>
-            <p class="mb-1"><%=result.team%></p>
-            <p class="mb-1"><%=result.tier%></p>
-            <p class="mb-1"><%=result.value%></p>
-            <p class="mb-1"><%=result.position%></p>
+        <div class="wrapper d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                <%- include('position_nav.ejs') %>
+                <button class="btn btn-light m-2 text-primary" id="backButton">
+                    <i class="bi bi-arrow-left-square-fill me-2"></i>
+                    <span>뒤로 가기</span>
+                </button>
+            </div>
+            <div class="detail m-2 p-3 bg-light rounded text-dark">
+                <div class="detail-title d-flex align-items-center justify-content-between">
+                    <h1 class="eng-font ms-2"><%= result.name %></h1>
+                    <div class="d-flex align-items-center">
+                        <img src="/img/<%= result.position %>.svg" alt="" class="position me-1">
+                        <img src="/img/logo/<%= result.team %>.svg" alt="" class="team rounded-3 team-<%= result.team %>">
+                    </div>
+                </div>
+                <div class="detail-content d-flex">
+                    <img src="/img/profile/<%= result.name %>.webp" alt="" class="rounded-5 me-3 border border-4 border-primary shadow">
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        document.getElementById('backButton').addEventListener('click', function () {
+          // 현재 URL 경로 가져오기
+          const currentPath = window.location.pathname;
+      
+          // 마지막 '/' 이후의 경로 제거
+          const newPath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+      
+          // 새로운 경로 이동
+          window.location.href = newPath;
+        });
+      </script>
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

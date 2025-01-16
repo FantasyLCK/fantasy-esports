@@ -37,7 +37,7 @@
   --bs-info: #60C8F0;
   --bs-warning: #F0C647;
   --bs-danger: #F35766;
-  --bs-light: #f8f9fa;
+  --bs-light: #e3eef7;
   --bs-dark: #212529;
   --bs-primary-rgb: 72, 31, 129;
   --bs-secondary-rgb: 255, 134, 187;
@@ -45,7 +45,7 @@
   --bs-info-rgb: 96, 200, 240;
   --bs-warning-rgb: 240, 198, 71;
   --bs-danger-rgb: 243, 87, 102;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 227, 238, 247;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #1d0c34;
   --bs-secondary-text-emphasis: #66364b;
@@ -2018,13 +2018,13 @@ progress {
 
 .table-light {
   --bs-table-color: #000;
-  --bs-table-bg: #f8f9fa;
-  --bs-table-border-color: #c6c7c8;
-  --bs-table-striped-bg: #ecedee;
+  --bs-table-bg: #e3eef7;
+  --bs-table-border-color: #b6bec6;
+  --bs-table-striped-bg: #d8e2eb;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfe0e1;
+  --bs-table-active-bg: #ccd6de;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5e6e7;
+  --bs-table-hover-bg: #d2dce4;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3115,19 +3115,19 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-bg: #e3eef7;
+  --bs-btn-border-color: #e3eef7;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d3d4d5;
-  --bs-btn-hover-border-color: #c6c7c8;
-  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-hover-bg: #c1cad2;
+  --bs-btn-hover-border-color: #b6bec6;
+  --bs-btn-focus-shadow-rgb: 193, 202, 210;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c6c7c8;
-  --bs-btn-active-border-color: #babbbc;
+  --bs-btn-active-bg: #b6bec6;
+  --bs-btn-active-border-color: #aab3b9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f8f9fa;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-bg: #e3eef7;
+  --bs-btn-disabled-border-color: #e3eef7;
 }
 
 .btn-dark {
@@ -3250,19 +3250,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-color: #e3eef7;
+  --bs-btn-border-color: #e3eef7;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f8f9fa;
-  --bs-btn-hover-border-color: #f8f9fa;
-  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-hover-bg: #e3eef7;
+  --bs-btn-hover-border-color: #e3eef7;
+  --bs-btn-focus-shadow-rgb: 227, 238, 247;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f8f9fa;
-  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-bg: #e3eef7;
+  --bs-btn-active-border-color: #e3eef7;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-color: #e3eef7;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-border-color: #e3eef7;
   --bs-gradient: none;
 }
 
@@ -6896,8 +6896,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: RGBA(249, 250, 251, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(249, 250, 251, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(233, 241, 249, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(233, 241, 249, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -12002,6 +12002,37 @@ header {
   height: 32px;
 }
 
+.team-T1 {
+  background-color: #e2012d;
+}
+.team-GEN {
+  background-color: #aa8a00;
+}
+.team-HLE {
+  background-color: #ff6b01;
+}
+.team-DK {
+  background-color: #28cabd;
+}
+.team-KT {
+  background-color: #92122f;
+}
+.team-DNF {
+  background-color: #0C50F1;
+}
+.team-BFX {
+  background-color: #d8c926;
+}
+.team-NS {
+  background-color: #cb4033;
+}
+.team-DRX {
+  background-color: #1102A3;
+}
+.team-BRO {
+  background-color: #00492B;
+}
+
 .login {
   background-color: rgba(0, 0, 0, 0.3725490196);
   width: 320px;
@@ -12014,4 +12045,42 @@ header {
 
 .login button {
   width: 100%;
+}
+
+.list {
+  width: 310px;
+}
+
+.list img {
+  width: 30px;
+}
+
+.list .players {
+  font-size: 28px;
+}
+
+.wrapper button {
+  width: 310px;
+}
+
+.detail {
+  width: calc(100% - 334px);
+  min-width: 620px;
+}
+
+.detail h1, .detail .h1 {
+  font-size: 90px;
+}
+
+.detail-title .position {
+  width: 55px;
+}
+
+.detail-title .team {
+  height: 50px;
+}
+
+.detail-content img {
+  width: 260px;
+  background-color: rgba(72, 31, 129, 0.3137254902);
 }/*# sourceMappingURL=main.css.map */

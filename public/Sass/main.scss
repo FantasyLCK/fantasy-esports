@@ -7,6 +7,7 @@ $info: #60C8F0;
 $success: #24B06F;
 $warning: #F0C647;
 $danger: #F35766;
+$light: #e3eef7;
 
 // bootstrap 임포트
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
@@ -54,6 +55,49 @@ header {
     height: 32px;
 }
 
+// 팀 컬러 선언
+.team {
+    &-T1 {
+        background-color: #e2012d;
+    };
+
+    &-GEN {
+        background-color: #aa8a00;
+    };
+
+    &-HLE {
+        background-color: #ff6b01;
+    };
+
+    &-DK {
+        background-color: #28cabd;
+    };
+
+    &-KT {
+        background-color: #92122f;
+    };
+
+    &-DNF {
+        background-color: #0C50F1;
+    };
+
+    &-BFX {
+        background-color: #d8c926;
+    };
+
+    &-NS {
+        background-color: #cb4033;
+    };
+
+    &-DRX {
+        background-color: #1102A3;
+    };
+
+    &-BRO {
+        background-color: #00492B;
+    }
+}
+
 // 로그인, 회원가입 css
 
 .login {
@@ -68,4 +112,44 @@ header {
 
 .login button {
     width: 100%;
+}
+
+// 선수 검색 css
+
+.list {
+    width: 310px;
+}
+
+.list img {
+    width: 30px;
+}
+
+.list .players {
+    font-size: 28px;
+}
+
+.wrapper button {
+    width: 310px;
+}
+
+.detail {
+    width: calc(100% - 334px);
+    min-width: 620px;
+}
+
+.detail h1 {
+    font-size: 90px;
+}
+
+.detail-title .position {
+    width: 55px;
+}
+
+.detail-title .team {
+    height: 50px;
+}
+
+.detail-content img {
+    width: 260px;
+    background-color: #481f8150;
 }

@@ -31,38 +31,46 @@ app.get('/', (req, res) => {
   res.render('index.ejs')
 })
 
-app.get('/list/:position', async (req, res) => {
+app.get('/list/:position?', async (req, res) => {
   try {
     const position = req.params.position; // position 값 가져오기
 
-    // position 값이 없으면 position_list.ejs를 렌더링
-    if (!position) {
+    if (!position) { // position 값이 없을 때
       return res.render('position_list.ejs');
     }
 
-    // position 값이 존재하면 해당 데이터를 필터링
-    const query = { position: position.toUpperCase() }; // 대소문자 구분 방지
-    const result = await db.collection('players').find(query).toArray();
-
-    res.render('list.ejs', { result: result }); // list.ejs 렌더링
+    const query = { position: position.toUpperCase() }; // position 값이 있을 때 쿼리 조건 설정
+    const result = await db.collection('players').find(query).toArray(); // 쿼리 실행
+    res.render('list.ejs', { result: result });
   } catch (err) {
     console.error(err);
     res.status(500).send('Internal Server Error'); // 에러 처리
   }
 });
 
-app.get('/detail/:name', async (req, res) => {
+app.get('/list/:position/:name', async (req, res) => {
   try {
+    const position = req.params.position.toUpperCase(); // positon 가져오기
     const playerName = req.params.name; // name 가져오기
-    const result = await db.collection('players').findOne({ name: playerName });
+
+    // MongoDB 쿼리 조건
+    const query = { 
+      position: position, 
+      name: playerName 
+    };
+
+    // 해당 데이터 조회
+    const result = await db.collection('players').findOne(query);
 
     if (!result) {
-      // 에러 처리
-      return res.status(404).send(`<h1>Player "${playerName}" not found</h1>`);
+      // 데이터가 없을 경우 에러 처리
+      return res.status(404).send(`<h1>Player "${playerName}" in position "${position}" not found</h1>`);
     }
+
+    // detail.ejs에 데이터 전달
     res.render('detail.ejs', { result: result });
   } catch (err) {
-    // 에러 처리
+    // 서버 에러 처리
     console.error(err);
     res.status(500).send('Internal Server Error');
   }
